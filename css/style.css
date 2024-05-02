@@ -559,6 +559,7 @@ footer {
   height: 20vh;
   background-color: #1d1d1d;
   padding: 2vh;
+  text-align: center;
 }
 .footer-content {
   display: flex;

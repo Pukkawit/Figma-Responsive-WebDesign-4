@@ -845,7 +845,9 @@ footer {
   .close-menu {
     display: block;
   }
-
+  .all-coded-design-content h4 {
+    width: 28vw;
+  }
   #switch:checked ~ header > nav > .container > ul {
     top: 320px;
     opacity: 0.9;

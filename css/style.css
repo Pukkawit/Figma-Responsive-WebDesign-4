@@ -705,13 +705,12 @@ footer {
     flex-direction: column;
     row-gap: 20px;
     position: absolute;
-    top: -320px;
+    top: 0;
     width: 200vw;
-    background-color: #000000bd;
-    height: 580px;
+    background-color: #0000009d;
+    height: 0;
     z-index: 7;
-    transition: all ease-in-out 0.2s;
-    opacity: 0.2;
+    transition: all ease-in-out 0.3s;
   }
   nav ul li {
     width: 100%;
@@ -850,7 +849,7 @@ footer {
   }
   #switch:checked ~ header > nav > .container > ul {
     top: 320px;
-    opacity: 0.9;
+    height: 580px;
   }
   #switch:checked ~ label .open-menu {
     opacity: 0;

@@ -201,7 +201,6 @@ header .nav ul {
   border: 2px solid #1d1d1d25;
 }
 .below-header {
-  position: relative;
   background-color: #1d1d1d;
   color: #ffffff;
   width: 100%;
@@ -210,7 +209,30 @@ header .nav ul {
   display: flex;
   align-items: center;
   overflow: hidden;
+  position: relative;
 }
+.text-in-box {
+  position: absolute;
+  top: 1.5vh;
+  right: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #000000;
+  border-radius: 0 35px 0 35px;
+  transform: rotate(25deg);
+  opacity: 0.5;
+  z-index: 1;
+}
+.text-in-box p {
+  font-size: 9rem;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
 .portfolio-description {
   display: flex;
   flex-direction: column;
@@ -230,27 +252,6 @@ header .nav ul {
   margin-bottom: 20px;
   max-width: 60vw;
   z-index: 2;
-  font-family: "Montserrat", sans-serif;
-}
-.text-in-box {
-  position: absolute;
-  top: 1.5vh;
-  right: 7vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 190px;
-  width: 190px;
-  border: 10px solid #000000;
-  border-radius: 0 35px 0 35px;
-  transform: rotate(25deg);
-  opacity: 0.5;
-  z-index: 1;
-}
-.text-in-box p {
-  font-size: 9rem;
-  font-weight: 500;
-  color: #000000;
   font-family: "Montserrat", sans-serif;
 }
 .read-more {
@@ -768,18 +769,7 @@ footer p {
     width: 17px;
     cursor: pointer;
   }
-  .text-in-box {
-    position: absolute;
-    top: 5vh;
-    right: 30vw;
-    transform: rotate(0deg);
-  }
-  .below-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
+
   .title {
     align-self: center;
   }
@@ -843,6 +833,20 @@ footer p {
     margin-top: 2px;
   }
 
+  .below-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-description p {
+    text-align: center;
+  }
+  .text-in-box {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    transform: translate(-50%, -50%);
+    transform: rotate(0);
+  }
   .all-coded-design-content h4 {
     width: 28vw;
   }

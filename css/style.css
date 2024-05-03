@@ -213,13 +213,13 @@ header .nav ul {
 }
 .text-in-box {
   position: absolute;
-  top: 0;
-  right: 8vw;
+  top: -10vh;
+  right: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh;
-  width: 40vh;
+  height: 50vh;
+  width: 50vh;
   /* border: 10px solid #000000;
   border-radius: 0 35px 0 35px; */
   transform: rotate(25deg);
@@ -838,8 +838,8 @@ footer p {
   }
   .text-in-box {
     position: absolute;
-    top: 15%;
-    right: 25%;
+    top: 10%;
+    right: 20%;
     transform: rotate(0);
   }
   .all-coded-design-content h4 {

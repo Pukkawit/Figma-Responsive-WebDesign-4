@@ -213,15 +213,15 @@ header .nav ul {
 }
 .text-in-box {
   position: absolute;
-  top: 1.5vh;
-  right: 7vw;
+  top: 0;
+  right: 8vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 200px;
-  border: 10px solid #000000;
-  border-radius: 0 35px 0 35px;
+  height: 40vh;
+  width: 40vh;
+  /* border: 10px solid #000000;
+  border-radius: 0 35px 0 35px; */
   transform: rotate(25deg);
   opacity: 0.5;
   z-index: 1;
@@ -701,7 +701,6 @@ footer p {
   .contact-me:hover {
     color: #000000 !important;
   }
-
   /* HAMBURGER ICON SWITCH */
   #close-menu-main {
     height: 100%;
@@ -714,7 +713,6 @@ footer p {
     display: none;
     opacity: 0.5;
   }
-
   .close-menu {
     border: 0.15rem solid #ffffff;
     display: block;
@@ -769,7 +767,6 @@ footer p {
     width: 17px;
     cursor: pointer;
   }
-
   .title {
     align-self: center;
   }
@@ -832,7 +829,6 @@ footer p {
     font-size: 0.7rem;
     margin-top: 2px;
   }
-
   .below-header {
     display: flex;
     flex-direction: column;
@@ -842,9 +838,8 @@ footer p {
   }
   .text-in-box {
     position: absolute;
-    top: 25%;
+    top: 15%;
     right: 25%;
-    transform: translate(-50%, -50%);
     transform: rotate(0);
   }
   .all-coded-design-content h4 {

@@ -166,10 +166,7 @@ header .nav ul {
   text-align: center;
   z-index: 2;
   font-size: 0.5rem;
-  border: 0.15rem solid #0b0b0b49;
   padding: 0.5rem;
-  border-radius: 20px 0 20px 0;
-  background-color: #1d1d1d25;
   font-family: "Raleway", sans-serif;
 }
 .pf-image {
@@ -845,6 +842,9 @@ footer p {
   .all-coded-design-content h4 {
     width: 28vw;
   }
+  .using-now {
+    grid-template-columns: repeat(1, 1fr);
+  }
   #switch:checked ~ header > nav ul {
     top: 320px;
     height: 580px;
@@ -907,11 +907,6 @@ footer p {
   }
   .jobs-done {
     grid-template-columns: 1fr;
-  }
-
-  .using-now {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 50px;
   }
 
   .bg-img {
